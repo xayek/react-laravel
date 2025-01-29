@@ -1,2 +1,3 @@
 composer require laravel/breeze --dev
 php artisan breeze:install
+php artisan make:controller ProjectController --model=Project --requests --resource  (bu kodu kullan kolaylık)
